@@ -1,13 +1,83 @@
-  .body {
-    object-fit: contain;
-    width: 130vh;
-    height: 86.9vh;
-    text-align: center;
-    color: white;
-    word-wrap: break-word;
-    background-color: #c9c9c9;
-    border-radius: 20px;
-    margin-left: 270px;
-    padding: 8px 0;
-    margin-top: 20px;
-  }
+@font-face {
+  font-family: 'latinka-regular';
+  src: url(FONTS/Latinka_Regular.ttf);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'latinka-regular';
+}
+
+
+#image1{
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.image1_dim{
+  height: 100%;
+  background-color: black;
+  opacity: 0.3;
+}
+
+.image1_text_content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 425px;
+  text-align: justify;
+  font-size: 72;
+  color: white;
+  line-height: 1.7;
+}
+
+#image2{
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.image2_dim{
+  height: 100vh;
+  background-color: black;
+  opacity: 0.3;
+}
+#image3{
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.image3_dim{
+  height: 100vh;
+  background-color: black;
+  opacity: 0.3;
+}
+#image4{
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.image4_dim{
+  height: 100vh;
+  background-color: black;
+  opacity: 0.3;
+}
+#image5{
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.image5_dim{
+  height: 100vh;
+  background-color: black;
+  opacity: 0.3;
+}
+
+
