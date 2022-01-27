@@ -23,7 +23,7 @@
   opacity: 0.3;
 }
 
-.image1_text_content{
+.image_title{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,6 +31,14 @@
   bottom: 425px;
   text-align: justify;
   font-size: 72;
+  color: white;
+  line-height: 1.7;
+}
+.image_para{
+  text-align: center;
+  position: relative;
+  bottom: 425px;
+  font-size: 20;
   color: white;
   line-height: 1.7;
 }
@@ -75,6 +83,17 @@
   height: 100vh;
 }
 .image5_dim{
+  height: 100vh;
+  background-color: black;
+  opacity: 0.3;
+}
+#image6{
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.image6_dim{
   height: 100vh;
   background-color: black;
   opacity: 0.3;
