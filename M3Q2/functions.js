@@ -13,9 +13,9 @@ fetch("https://api.unsplash.com/search/photos?query=philippines&client_id=2BHRf_
                     document.getElementById("image1").style.backgroundImage = 'url(' + data["results"][0]["urls"]["full"] +')';
                     document.getElementById("image2").style.backgroundImage = 'url(' + data["results"][1]["urls"]["full"] +')';
                     document.getElementById("image3").style.backgroundImage = 'url(' + data["results"][2]["urls"]["full"] +')';
-                    document.getElementById("image4").style.backgroundImage = 'url(' + data["results"][9]["urls"]["full"] +')';
-                    document.getElementById("image5").style.backgroundImage = 'url(' + data["results"][5]["urls"]["full"] +')';
-                    
+                    document.getElementById("image4").style.backgroundImage = 'url(' + data["results"][5]["urls"]["full"] +')';
+                    document.getElementById("image5").style.backgroundImage = 'url(' + data["results"][9]["urls"]["full"] +')';
+                    document.getElementById("image6").style.backgroundImage = 'url(' + data["results"][7]["urls"]["full"] +')';
                 }
             )
         }
